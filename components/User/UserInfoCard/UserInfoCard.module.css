@@ -1,0 +1,25 @@
+.user_info_card {
+  display: flex;
+  background: #ccc;
+  width: fit-content;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2em auto;
+  border-radius: 14px;
+}
+
+.user_info_card img {
+  object-fit: cover;
+  height: 7em;
+  width: 5em;
+}
+.user_info_card ul {
+  list-style: none;
+  background: black;
+  color: white;
+  padding: 0.5em 2em;
+  height: 100%;
+  line-height: 1.5em;
+  margin: 0;
+}
