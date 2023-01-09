@@ -24,3 +24,22 @@ a {
     background: black;
   }
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  text-align: center;
+  justify-content: center;
+  padding: 2em;
+}
+
+form {
+  margin-bottom: 1em;
+}
+
+table {
+  margin: 0;
+  padding: 2em;
+  border: 1px solid #ccc;
+}

@@ -6,7 +6,8 @@ import classes from "./account.module.css";
 export default function Account() {
   const session = useSession();
   const supabase = useSupabaseClient();
-
+  const { user } = Auth.useUser();
+  console.log(user);
   if (!session) {
     return (
       <section className={classes.section}>
